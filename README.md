@@ -5,7 +5,7 @@ DTFPNet: Temporal and Frequency Dynamic Graph Neural Network for Time Series Rep
 Thank you for visiting this code repository.
 
 Due to the fact that this work has not been published in an archive and there is a relatively long review cycle, 
-the critical sections of the code have been treated confidentially. Upon acceptance of the paper, 
+the critical sections of the code have been treated confidentially. Once the paper is accepted, 
 the full code will be provided, and the training weights will be made publicly available. If reviewers require further information, 
 they may contact the authors.
 
