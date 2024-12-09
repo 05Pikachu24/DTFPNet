@@ -20,4 +20,3 @@ some test results in this paper can be seen in path ./lightning_logs/    and  ./
 ## Acknowledgements
 The codes in this repository are inspired by the following:
 TSLANet: Rethinking Transformers for Time Series Representation Learning https://github.com/emadeldeen24/TSLANet
-TodyNet: Temporal Dynamic Graph Neural Network for Multivariate Time Series Classification https://github.com/liuxz1011/TodyNet
