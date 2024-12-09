@@ -1,0 +1,16 @@
+ScreenType_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.6]14_46_42
+Ours_ScreenType_groups_5_GRULayers_32_epochs_700_train_lr_0.0005_DCT_GRU
+acc:{'test': 0.61, 'val': 0.759}, mf1:{'test': 0.28, 'val': 0.724}
+
+ToeSegmentation1_numLayers3_inDim_52_hiddenDim_104_outDim_208_kernSize_[7, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.6]21_25_13
+Ours_ToeSegmentation1_groups_4_GRULayers_0_epochs_500_train_lr_0.0005_DCT
+acc:{'test': 0.934, 'val': 0.875}, mf1:{'test': 0.692, 'val': 0.873}
+
+Worms_numLayers3_inDim_54_hiddenDim_108_outDim_216_kernSize_[7, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.4, 0.5, 0.5]20_34_56
+Ours_Worms_groups_2_GRULayers_1_epochs_700_train_lr_0.0005_DCT_GRU  
+acc:{'test': 0.766, 'val': 0.837}, mf1:{'test': 0.428, 'val': 0.69}
+
+Yoga_numLayers3_inDim_52_hiddenDim_104_outDim_208_kernSize_[7, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]17_27_04
+Ours_Yoga_groups_6_GRULayers_1_epochs_700_train_lr_0.0005_DCT_GRU
+acc:{'test': 0.857, 'val': 0.899}, mf1:{'test': 0.848, 'val': 0.894}
+
