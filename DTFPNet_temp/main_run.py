@@ -251,7 +251,7 @@ class GNNStack(nn.Module):
 
         self.softmax = nn.Softmax(dim=-1)
         self.global_pool = nn.AdaptiveAvgPool2d(1)
-        self.reset_parameters()
+        self.reset_parameters()  # We found that sometimes it may not need to use the reset_parameters().
 
     def reset_parameters(self):
         self.tconvs_1.reset_parameters()
