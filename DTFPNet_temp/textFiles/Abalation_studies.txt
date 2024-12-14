@@ -1,0 +1,87 @@
+----------------------Abalation Studies(part of results)--------------------------------------
+
+DTFPNet--------------
+
+ArrowHead_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.6]09_37_50
+Ours_ArrowHead_groups_6_GRULayers_1_epochs_1500_train_lr_0.0005_DCT_GRU          DTFPNet
+acc:{'test': 0.845, 'val': 0.75}, mf1:{'test': 0.505, 'val': 0.719}
+
+Computers_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[5, 3, 1]_kernSizeMid_[1, 3, 1]_dropoutSize_[0.5, 0.5, 0.5]09_38_57
+Ours_Computers_groups_6_GRULayers_1_epochs_1200_train_lr_0.0005_DCT_GRU        DTFPNet
+acc:{'test': 0.864, 'val': 0.839}, mf1:{'test': 0.619, 'val': 0.837}
+
+FaceDetection_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]14_30_16
+Ours_FaceDetection_groups_3_GRULayers_24_epochs_100_train_lr_0.0005_DCT_GRU     DTFPNet
+acc:{'test': 0.655, 'val': 0.733}, mf1:{'test': 0.64, 'val': 0.719}
+
+har_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.4, 0.5, 0.5]15_34_41
+Ours_har_groups_4_GRULayers_32_epochs_190_train_lr_0.0005_DCT_GRU                 DTFPNet
+acc:{'test': 0.973, 'val': 0.993}, mf1:{'test': 0.934, 'val': 0.991}
+
+Lightning7_numLayers3_inDim_52_hiddenDim_104_outDim_208_kernSize_[5, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]16_47_28
+Ours_Lightning7_groups_6_GRULayers_1_epochs_700_train_lr_0.0005_DCT_GRU     new best  DTFPNet
+acc:{'test': 0.849, 'val': 1.0}, mf1:{'test': 0.816, 'val': 1.0}
+
+
+Temp_DGNN-----------
+
+ArrowHead_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.6]14_56_39
+Ours_ArrowHead_groups_6_GRULayers_0_epochs_1500_train_lr_0.0005             Temp_DGNN
+acc:{'test': 0.828, 'val': 1.0}, mf1:{'test': 0.426, 'val': 1.0}
+
+Lightning7_numLayers3_inDim_52_hiddenDim_104_outDim_208_kernSize_[5, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]15_17_33  
+Ours_Lightning7_groups_6_GRULayers_0_epochs_700_train_lr_0.0005              Temp_DGNN
+acc:{'test': 0.821, 'val': 1.0}, mf1:{'test': 0.804, 'val': 1.0}
+
+Computers_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[5, 3, 1]_kernSizeMid_[1, 3, 1]_dropoutSize_[0.5, 0.5, 0.5]15_25_33
+Ours_Computers_groups_6_GRULayers_0_epochs_1200_train_lr_0.0005              Temp_DGNN
+acc:{'test': 0.776, 'val': 0.839}, mf1:{'test': 0.484, 'val': 0.833}
+
+har_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.4, 0.5, 0.5]15_34_41
+Ours_har_groups_4_GRULayers_0_epochs_190_train_lr_0.0005                       Temp_DGNN
+acc:{'test': 0.877, 'val': 0.944}, mf1:{'test': 0.823, 'val': 0.939}
+
+
+Freq_DGNN   DCT_GRU------------------
+
+Lightning7_numLayers3_inDim_52_hiddenDim_104_outDim_208_kernSize_[5, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]15_57_52
+Ours_Lightning7_groups_6_GRULayers_1_epochs_700_train_lr_0.0005_DCT_GRU         Freq_DGNN   DCT_GRU
+acc:{'test': 0.561, 'val': 0.857}, mf1:{'test': 0.395, 'val': 0.902}
+
+Computers_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[5, 3, 1]_kernSizeMid_[1, 3, 1]_dropoutSize_[0.5, 0.5, 0.5]16_10_33
+Ours_Computers_groups_6_GRULayers_1_epochs_1200_train_lr_0.0005_DCT_GRU        Freq_DGNN   DCT_GRU
+acc:{'test': 0.648, 'val': 0.74}, mf1:{'test': 0.388, 'val': 0.724}
+
+har_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.4, 0.5, 0.5]17_10_36
+Ours_har_groups_4_GRULayers_1_epochs_190_train_lr_0.0005_DCT_GRU               Freq_DGNN   DCT_GRU
+acc:{'test': 0.905, 'val': 0.969}, mf1:{'test': 0.809, 'val': 0.957}
+
+
+Freq_DGNN   DCT-----------------
+
+Lightning7_numLayers3_inDim_52_hiddenDim_104_outDim_208_kernSize_[5, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]16_01_46
+Ours_Lightning7_groups_6_GRULayers_0_epochs_700_train_lr_0.0005_DCT           Freq_DGNN   DCT
+acc:{'test': 0.726, 'val': 1.0}, mf1:{'test': 0.581, 'val': 1.0}
+
+Computers_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[5, 3, 1]_kernSizeMid_[1, 3, 1]_dropoutSize_[0.5, 0.5, 0.5]16_15_39
+Ours_Computers_groups_6_GRULayers_0_epochs_1200_train_lr_0.0005_DCT            Freq_DGNN   DCT
+acc:{'test': 0.5, 'val': 0.54}, mf1:{'test': 0.476, 'val': 0.347}
+
+har_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.4, 0.5, 0.5]19_03_04
+Ours_har_groups_4_GRULayers_0_epochs_190_train_lr_0.0005_DCT                 Freq_DGNN   DCT
+acc:{'test': 0.838, 'val': 0.882}, mf1:{'test': 0.734, 'val': 0.862}
+
+
+Freq_DGNN   DFT----------------
+
+har_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.4, 0.5, 0.5]19_26_56
+Ours_har_groups_4_GRULayers_0_epochs_190_train_lr_0.0005_DFT                Freq_DGNN   DFT
+acc:{'test': 0.916, 'val': 0.958}, mf1:{'test': 0.868, 'val': 0.954}
+
+Computers_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[5, 3, 1]_kernSizeMid_[1, 3, 1]_dropoutSize_[0.5, 0.5, 0.5]19_52_09
+Ours_Computers_groups_6_GRULayers_0_epochs_1200_train_lr_0.0005_DFT         Freq_DGNN   DFT
+acc:{'test': 0.5, 'val': 0.54}, mf1:{'test': 0.476, 'val': 0.347}
+
+Lightning7_numLayers3_inDim_52_hiddenDim_104_outDim_208_kernSize_[5, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]20_02_11
+Ours_Lightning7_groups_6_GRULayers_0_epochs_700_train_lr_0.0005_DFT         Freq_DGNN   DFT
+acc:{'test': 0.63, 'val': 0.785}, mf1:{'test': 0.534, 'val': 0.488}
