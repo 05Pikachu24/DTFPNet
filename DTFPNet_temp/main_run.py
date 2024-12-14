@@ -231,7 +231,7 @@ class GNNStack(nn.Module):
 
         # This layer is not used (does not participate in forward propagation or backward propagation.);
         # it is solely intended to better initialize the entire network's parameters.
-        self.wt = DepthwiseSeparableConvWithWTConv2d(in_channels=args.num_channels, out_channels=args.num_channels)
+        # self.wt = DepthwiseSeparableConvWithWTConv2d(in_channels=args.num_channels, out_channels=args.num_channels)
 
         # the critical sections of the code have been treated confidentially.Upon acceptance of the paper,
         # the full code will be provided, and the training weights will be made publicly available.
