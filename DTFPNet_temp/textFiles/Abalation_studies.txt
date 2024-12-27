@@ -10,10 +10,6 @@ Computers_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[5, 3, 1]_kernSi
 Ours_Computers_groups_6_GRULayers_1_epochs_1200_train_lr_0.0005_DCT_GRU        DTFPNet
 acc:{'test': 0.864, 'val': 0.839}, mf1:{'test': 0.619, 'val': 0.837}
 
-FaceDetection_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.5, 0.5, 0.5]14_30_16
-Ours_FaceDetection_groups_3_GRULayers_24_epochs_100_train_lr_0.0005_DCT_GRU     DTFPNet
-acc:{'test': 0.655, 'val': 0.733}, mf1:{'test': 0.64, 'val': 0.719}
-
 har_numLayers3_inDim_64_hiddenDim_128_outDim_256_kernSize_[9, 5, 3]_kernSizeMid_[6, 5, 3]_dropoutSize_[0.4, 0.5, 0.5]15_34_41
 Ours_har_groups_4_GRULayers_32_epochs_190_train_lr_0.0005_DCT_GRU                 DTFPNet
 acc:{'test': 0.973, 'val': 0.993}, mf1:{'test': 0.934, 'val': 0.991}
